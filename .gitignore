@@ -1,0 +1,5 @@
+/sass/
+/css/*
+!/css/style.css
+!/css/style.min.css
+/fonts/ttf/
