@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="app/swiper/css/swiper-bundle.min.css" />
     <link href="css/style.min.css" rel="stylesheet" />
     <title>Избавление от вредителей</title>
   </head>
@@ -418,14 +419,246 @@
         <div class="main__inner">
           <div class="main__certificates">
             <div class="certificates">
-              <h3 class="title certificates__title">Используемые препараты <br><span class="title_type_emphasis">сертифицированы</span></h3>
+              <h3 class="title certificates__title">Используемые препараты <br /><span class="title_type_emphasis">сертифицированы</span></h3>
+              <div class="certificates__inner">
+                <div class="info-certificates certificates__info">
+                  <span class="title title_size_s title_type_middle info-certificates__title">Сертификаты актуальны для РФ</span>
+                  <p class="text info-certificates__text">
+                    В нашем арсенале химические средства зарубежных и отечественных производителей. Все препараты прошли сертифи-кацию в РФ и разрешены к
+                    использованию в жилом фонде
+                  </p>
+                </div>
+                <div class="certificates__slider">
+                  <!-- Slider main container -->
+                  <div class="slider-certificates swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="slider-certificates__wrapper swiper-wrapper">
+                      <!-- Slides -->
+                      <div class="slider-certificates__slide swiper-slide">
+                        <img class="swiper-lazy slider-certificates__img" data-src="img/certificate.png" src="img/clock.svg" alt="certificate" />
+                        <div class="swiper-lazy-preloader"></div>
+                      </div>
+                      <div class="slider-certificates__slide swiper-slide">
+                        <img class="swiper-lazy slider-certificates__img" data-src="img/disinsection_1.jpg" src="img/clock.svg" alt="certificate" />
+                        <div class="swiper-lazy-preloader"></div>
+                      </div>
+                      <div class="slider-certificates__slide swiper-slide">
+                        <img class="swiper-lazy slider-certificates__img" data-src="img/disinsection_2.jpg" src="img/clock.svg" alt="certificate" />
+                        <div class="swiper-lazy-preloader"></div>
+                      </div>
+                      <div class="slider-certificates__slide swiper-slide">
+                        <img class="swiper-lazy slider-certificates__img" data-src="img/disinsection_3.jpg" src="img/clock.svg" alt="certificate" />
+                        <div class="swiper-lazy-preloader"></div>
+                      </div>
+                      <div class="slider-certificates__slide swiper-slide">
+                        <img class="swiper-lazy slider-certificates__img" data-src="img/disinsection_4.jpg" src="img/clock.svg" alt="certificate" />
+                        <div class="swiper-lazy-preloader"></div>
+                      </div>
+                    </div>
+
+                    <!-- If we need navigation buttons -->
+
+                    <!-- If we need scrollbar -->
+                    <!-- <div class="swiper-scrollbar"></div> -->
+                  </div>
+                  <div class="slider-navigation">
+                    <div class="slider-navigation__pagination slider-navigation__text"></div>
+                    <div class="slider-navigation__button slider-navigation__button_prev">
+                      <svg class="slider-navigation__button-img" width="46" height="16" viewBox="0 0 46 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M0.292892 8.70711C-0.0976295 8.31658 -0.0976295 7.68342 0.292892 7.29289L6.65685 0.928932C7.04738 0.538408 7.68054 0.538408 8.07107 0.928932C8.46159 1.31946 8.46159 1.95262 8.07107 2.34315L2.41422 8L8.07107 13.6569C8.46159 14.0474 8.46159 14.6805 8.07107 15.0711C7.68054 15.4616 7.04738 15.4616 6.65685 15.0711L0.292892 8.70711ZM46 9H1V7H46V9Z"
+                          fill="#12748A"
+                        />
+                      </svg>
+                    </div>
+
+                    <div class="slider-navigation__button slider-navigation__button_next">
+                      <svg class="slider-navigation__button-img" width="46" height="16" viewBox="0 0 46 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M45.7071 8.70711C46.0976 8.31658 46.0976 7.68342 45.7071 7.29289L39.3431 0.928932C38.9526 0.538408 38.3195 0.538408 37.9289 0.928932C37.5384 1.31946 37.5384 1.95262 37.9289 2.34315L43.5858 8L37.9289 13.6569C37.5384 14.0474 37.5384 14.6805 37.9289 15.0711C38.3195 15.4616 38.9526 15.4616 39.3431 15.0711L45.7071 8.70711ZM0 9H45V7H0V9Z"
+                          fill="#12748A"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-        <div class="reviews"></div>
-        <div class="company"></div>
-        <div class="answers"></div>
+        <div class="main__inner">
+          <div class="main__reviews">
+            <div class="reviews">
+              <h3 class="title title_pos_center reviews__titile">Отзывы о <span class="title_type_emphasis">нашей работы</span></h3>
+              <div class="reviews__slider">
+                <div class="slider-reviews swiper">
+                  <!-- Additional required wrapper -->
+                  <div class="slider-reviews__wrapper swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="slider-reviews__slide swiper-slide">
+                      <div class="slider-reviews__video">
+                        <video class="slider-video" poster="img/video-poster_1.jpg" preload="metadata">
+                          <source src="media/video.mp4" type="video/mp4" />
+                        </video>
+                        <button class="button button_theme_action slider-reviews__action-button action-button">
+                          <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="32" cy="32" r="32" fill="#006A81" />
+                            <path d="M41 32L26 41V23L41 32Z" fill="white" />
+                          </svg>
+                        </button>
+                      </div>
+                      <h5 class="title title_size_s title_type_middle slider-reviews__title">Уничтожение клещей</h5>
+                    </div>
+                    <div class="slider-reviews__slide swiper-slide">
+                      <div class="slider-reviews__video">
+                        <video class="slider-video" poster="img/video-poster_2.jpg" preload="metadata" >
+                          <source src="media/video.mp4" type="video/mp4" />
+                        </video>
+                        <button class="button button_theme_action slider-reviews__action-button action-button">
+                          <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="32" cy="32" r="32" fill="#006A81" />
+                            <path d="M41 32L26 41V23L41 32Z" fill="white" />
+                          </svg>
+                        </button>
+                      </div>
+                      <h5 class="title title_size_s title_type_middle slider-reviews__title">Тараканы в квартире</h5>
+                    </div>
+                    <div class="slider-reviews__slide swiper-slide">
+                      <div class="slider-reviews__video">
+                        <video class="slider-video" poster="img/video-poster_1.jpg" preload="metadata" >
+                          <source src="media/video.mp4" type="video/mp4" />
+                        </video>
+                        <button class="button button_theme_action slider-reviews__action-button action-button">
+                          <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="32" cy="32" r="32" fill="#006A81" />
+                            <path d="M41 32L26 41V23L41 32Z" fill="white" />
+                          </svg>
+                        </button>
+                      </div>
+                      <h5 class="title title_size_s title_type_middle slider-reviews__title">Уничтожение клещей</h5>
+                    </div>
+                    <div class="slider-reviews__slide swiper-slide">
+                      <div class="slider-reviews__video">
+                        <video class="slider-video" poster="img/video-poster_2.jpg" preload="metadata" >
+                          <source src="media/video.mp4" type="video/mp4" />
+                        </video>
+                        <button class="button button_theme_action slider-reviews__action-button action-button">
+                          <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="32" cy="32" r="32" fill="#006A81" />
+                            <path d="M41 32L26 41V23L41 32Z" fill="white" />
+                          </svg>
+                        </button>
+                      </div>
+                      <h5 class="title title_size_s title_type_middle slider-reviews__title">Тараканы в квартире</h5>
+                    </div>
+                    <div class="slider-reviews__slide swiper-slide">
+                      <div class="slider-reviews__video">
+                        <video class="slider-video" poster="img/video-poster_1.jpg" preload="metadata" >
+                          <source src="media/video.mp4" type="video/mp4" />
+                        </video>
+                        <button class="button button_theme_action slider-reviews__action-button action-button">
+                          <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="32" cy="32" r="32" fill="#006A81" />
+                            <path d="M41 32L26 41V23L41 32Z" fill="white" />
+                          </svg>
+                        </button>
+                      </div>
+                      <h5 class="title title_size_s title_type_middle slider-reviews__title">Уничтожение клещей</h5>
+                    </div>
+                    <div class="slider-reviews__slide swiper-slide">
+                      <div class="slider-reviews__video">
+                        <video class="slider-video" poster="img/video-poster_2.jpg" preload="metadata" >
+                          <source src="media/video.mp4" type="video/mp4" />
+                        </video>
+                        <button class="button button_theme_action slider-reviews__action-button action-button">
+                          <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="32" cy="32" r="32" fill="#006A81" />
+                            <path d="M41 32L26 41V23L41 32Z" fill="white" />
+                          </svg>
+                        </button>
+                      </div>
+                      <h5 class="title title_size_s title_type_middle slider-reviews__title">Тараканы в квартире</h5>
+                    </div>
+                  </div>
+                  <div class="slider-reviews__pagination-wrapper">
+                    <div class="slider-button slider-button_prev slider-reviews-button_prev slider-reviews__button"></div>
+                    <div class="pagination-text slider-reviews__pagination"></div>
+                    <div class="slider-button slider-button_next slider-reviews-button_next slider-reviews__button"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="main__inner">
+          <div class="main__company">
+            <div class="company">
+              <div class="slider-company swiper">
+                <!-- Additional required wrapper -->
+                <div class="slider-company__wrapper swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="slider-company__slide swiper-slide">
+                    <img src="img/company_1.png" alt="first company" class="slider-company__img" />
+                  </div>
+                  <div class="slider-company__slide swiper-slide">
+                    <img src="img/company_2.png" alt="first company" class="slider-company__img" />
+                  </div>
+                  <div class="slider-company__slide swiper-slide">
+                    <img src="img/company_3.png" alt="first company" class="slider-company__img" />
+                  </div>
+                  <div class="slider-company__slide swiper-slide">
+                    <img src="img/company_1.png" alt="first company" class="slider-company__img" />
+                  </div>
+                  <div class="slider-company__slide swiper-slide">
+                    <img src="img/company_2.png" alt="first company" class="slider-company__img" />
+                  </div>
+                  <div class="slider-company__slide swiper-slide">
+                    <img src="img/company_3.png" alt="first company" class="slider-company__img" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="main__answers">
+          <div class="main__inner">
+            <div class="answers">
+              <h3 class="title title_theme_questions answers__title">Ответы на часто задаваемые вопросы</h3>
+              <div class="answers__faq">
+                <div class="faq">
+                  <ul class="list faq__list">
+                    <li class="faq__item">
+                      <a href="#" class="link faq__link">
+                        <h6 class="title title_size_s title_type_middle faq__title">Безопасны ли препараты для дезинфекции?</h6>
+                      </a>
+                      <p class="text"></p>
+                    </li>
+                    <li class="faq__item">
+                      <a href="#" class="link faq__link">
+                        <h6 class="title title_size_s title_type_middle faq__title">Как делается дезинсекция?</h6>
+                      </a>
+                      <p class="text"></p>
+                    </li>
+                    <li class="faq__item">
+                      <a href="#" class="link faq__link">
+                        <h6 class="title title_size_s title_type_middle faq__title">Как делается дезинсекция?</h6>
+                      </a>
+                      <p class="text faq__text">
+                        Дератизация - это энергоемкий процесс, требующий как правило выезда на место проведения мероприятий. Наш менеджер бесплатно приедет к
+                        вам на объект и составит план мероприятий по уничтожению грызунов и согласует с вами методику. Далее, дезинфекторы приступят к
+                        проведению процедур по подготовке и процессу истребления
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </main>
     </div>
+    <script src="app/swiper/js/swiper-bundle.min.js.map"></script>
+    <script src="app/swiper/js/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>
