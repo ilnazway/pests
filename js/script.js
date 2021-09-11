@@ -120,6 +120,16 @@ for (let i = 0; i < buttonAction.length; i++) {
   });
 }
 
+$(document).ready(function() {
+  $('.faq__link').click(function(event) {
+    event.preventDefault();
+    if($('.faq').hasClass('faq_one-text')){
+      $('.faq__link').not($(this)).removeClass('faq__link_active');
+      $(".faq__text").not($(this).next()).slideUp(300);
+    }
+    $(this).toggleClass("faq__link_active").next().slideToggle(300);
+  });
+});
 
 
 
